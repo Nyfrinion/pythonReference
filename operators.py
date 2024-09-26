@@ -64,5 +64,4 @@ a not in b # not in
 # conditional operators are good for simple cases and if elese statements for more complex
 status = "Adult" if age >= 18 else "Minor" # value_if_true if condition else value_if_false
 
-
 #OPERATOR PRECEDENCE
