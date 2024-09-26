@@ -1,6 +1,11 @@
 import pythonicidioms
 import syntax
-#PYTHON
+
+#PYTHON REFERENCE
+#This project is a reference/storage for different python topics/features
+#It's meant to be navigated in editor(vscode)
+#CTRL + Left Mouse on links to other python files to explore
+
 history # more details-->
 
 #SYNTAX

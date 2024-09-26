@@ -124,7 +124,8 @@ decorators # more details-->
 generators # more details-->
 
 #CONTEXT MANAGER
-#???
+#a context manager allows you to allocate and release resources precisely when you want to
+#commonly used to manage files, network connections, database connections, etc
 contextmanagers # more details-->
 
 
