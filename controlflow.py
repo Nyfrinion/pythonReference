@@ -15,7 +15,7 @@ else:
     print('More')
 
 #   for Statements
-words = ['cat', 'window', 'defenestrate']
+words = ['imagine', 'dragons', 'yellow']
 for w in words:
     print(w, len(w))
 #   The range Function
