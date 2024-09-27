@@ -18,7 +18,7 @@ x = 5 + 3j # complex; immutable
 x = "string" # str; immutable
 x = ["element_1","element_2","element_3"] # list; mutable
 x = ("value_1","value_2") # tuple; immutable
-x = 5 # range <<--??
+range(5) # range; range(start,stop,step)
 
 #   String Interpolation
 
