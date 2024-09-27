@@ -97,7 +97,15 @@ graph_example # more details-->
 #matrix chart that shows graph data
 
 # Heaps
+#a heap is a tree based structure that follows "heap properties"
+#max heap: value of each node is > the values of its children
+#min heap: value of each node is < the values of its children
 heap_example # more details-->
 
-# Hash Table
+# Hash Table/Map
+#similar to a dictionary which is a higher level data structure implemented using a hash table
+#hash tables and dictionaries are collections of key-value pairs
+#a key value pair is a fundamental data structure comprised of a "key" and a "value"
+#key: unique identifier used to access associated value
+#value: data/information accessed via the key 
 hashtable_example # more details-->
