@@ -71,21 +71,28 @@ tree_example # more details-->
 
 
 # Graphs
+# Graphs are like trees without heirarchy
 #Directed Graph:
-directedgraph_example # more details-->
+#a graph where edges between vertices(nodes) have direction
+#edge between node A -> B is different than B -> A
+graph_example # more details-->
 
 #Undirected Graph:
-undirectedgraph_example # more details-->
+#a graph where edges do not have direction
+#edge etween node A - B is the same as B - A
+graph_example # more details-->
 
 #Spanning Tree:
-spanningtree_example # more details-->
+#subgraph of an undirected graph
+#the jist is that a spanning tree is meant to be a methematical simplification
+#which avoids any "circuits" <-- loops basically. this reduces the amount of connections
+#to the minumum. 
+graph_example # more details-->
 
 #Graph Representation
 #Adjacency List:
-directedgraph_example # more details-->
 
 #Adjacency Matrix:
-adjacencymatrix_example # more details-->
 
 # Heaps
 heap_example # more details-->
