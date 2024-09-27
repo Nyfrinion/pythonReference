@@ -1,5 +1,10 @@
 import iterables
 #BUILT IN TYPES
+#primitives -> int, string, char, float, etc
+#composite -> list, dict, tuple, set, etc
+datastructures # more details-->
+
+
 
 #   Mutability
 #mutability reflects a types ability to change its state or value after its creation
@@ -67,4 +72,10 @@ iterables # more details-->
 x = 5 # int
 
 #   Type Hints
+
 #   Type Casting
+#converting one datatype to another
+#   Implicit: automatic conversion
+new_number = integer_number + float_number  # integer_number is automatically converted to a float
+#   Explicit: manual conversion
+num_string = int(num_string)

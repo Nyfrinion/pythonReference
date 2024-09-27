@@ -6,6 +6,7 @@ import syntax
 #It's meant to be navigated in editor(vscode)
 #CTRL + Left Mouse on links to other python files to explore
 
+#HISTORY
 history # more details-->
 
 #SYNTAX
