@@ -71,7 +71,7 @@ tree_example # more details-->
 
 
 # Graphs
-# Graphs are like trees without heirarchy
+# Graphs are a structure of nodes and edges;trees/linked list are a subset of graphs
 #Directed Graph:
 #a graph where edges between vertices(nodes) have direction
 #edge between node A -> B is different than B -> A
@@ -91,8 +91,10 @@ graph_example # more details-->
 
 #Graph Representation
 #Adjacency List:
+# sorta like {0:[1,3], 1[0], 2[1,3], 3[0,2]}
 
 #Adjacency Matrix:
+#matrix chart that shows graph data
 
 # Heaps
 heap_example # more details-->
