@@ -8,37 +8,42 @@ print()
 open()
 
 #   Type Conversion
-bool()
+bool() # bool: returns a true or false 
 bin(int) # binary string: convert an integer to a binary string prefixed with "0b"
 bytearray() #byte array: return a new array of bytes; byte array class is a mutable
 #sequence of integers from 0 to 256.
 bytes() # bytes: returns a new bytes object which is a immutable sequence of integers 
 #from 0 to 256
-complex()
-dict()
-float()
-frozenset()
-int()
-list()
-set()
+complex() #complex: just creates a complex literal?
+dict() # dictionary: creates a dictionary
+float() # float: converts to float
+frozenset() # frozenset: creates a frozenset
+int() # int: converts to int
+list() # list: converts to list
+set() # set: creates a set
 str()
-tuple()
+tuple() # tuple: converts to tuple
 format()
 
 #   Mathematical Operations
 abs() # absolute value: returns the absolute value/magnitude of 
 #(int, float, complex number)
-pow()
-round()
-divmod()
+pow() # power: exponent operator with an optional modulus arguement (a ** b) % c ?
+#much more effecient if your exponent is large
+round() # round: used to round numbers to a decimal given in the argument. 
+#floating point error may return unexpected rounding results
+divmod() # div mod: accepts arguements for quotient and remainder??
 bin()
 hex()
 oct()
+sum() # sum: sums up iterables; customizable? 
+
+
 
 #   Data Handling
 lens()
-max()
-min()
+max() # max: return largest number of argument(s)
+min() # min: return smallest number of argument(s)
 sum()
 sorted()
 reversed()
