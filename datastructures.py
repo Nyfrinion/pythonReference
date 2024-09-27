@@ -24,56 +24,60 @@ int_array.append()
 int_array.remove()
 
 # Linked List
-# a linked list is a data structure made up of nodes; 
-# each node contains data and a pointer to the next node
-# so funnily a linked list is has non-contigous memory storage unlike lists and arrays
-# head and tail refer to the first and last nodes
-# linked lists are easily resizable; but access is O(n) complexity; arrays/lists are O(1)
+#a linked list is a data structure made up of nodes; 
+#each node contains data and a pointer to the next node
+#so funnily a linked list is has non-contigous memory storage unlike lists and arrays
+#head and tail refer to the first and last nodes
+#linked lists are easily resizable; but access is O(n) complexity; arrays/lists are O(1)
 linkedlist_example # more details-->
 
 # Stack
-# stack follows LAST IN FIRST OUT principle; think like a stack of pancakes
-# operations are push, pop, peek/top, isEmpty, size
-# LIFO, at least in this case, means no random access
+#stack follows LAST IN FIRST OUT principle; think like a stack of pancakes
+#operations are push, pop, peek/top, isEmpty, size
+#LIFO, at least in this case, means no random access
 stack_example # more details-->
 
 # Queue
-# queue follow FIRST IN FIRST OUT; think like a rollercoaster line
-# operations are enqueue, dequeue, peek/front, isEmpty, size
-# FIFO, at least in this case, means no random access
+#queue follow FIRST IN FIRST OUT; think like a rollercoaster line
+#operations are enqueue, dequeue, peek/front, isEmpty, size
+#FIFO, at least in this case, means no random access
 queue_example # more details-->
 
 
 #   Non-Linear Data Structures
 #elements are arranged in a hierarchical or interconnected way
 # Trees
+#node: data and references to child nodes; fundamental tree building block
+#root: topmost node of the tree
+#leaf: childless node
+#height: length of longest path from the root to any leaf
+#depth: length of the path from the root to a specific node
 #Binary Tree:
-binarytree_example # more details-->
-
+#a binary tree containe at most 2 child elements(left child, right child)
 #Binary Search Tree:
-binarysearchtree_example # more details-->
-
+#type of binary tree where any nodes child objects follow this rule
+#left child < node; right child > node
 #Full Binary Tree:
-fullbinarytree_example # more details-->
-
+#a binary tree where every node that isnt a leaf has two children
 #Complete Binary Tree:
-completebinarytree_example # more details-->
-
+#a binary tree where every node is filled except potentially the last layer(filled left to right)
 #Balanced Tree:
-balancedtree_example # more details-->
-
+#any tree where the height difference between 
+#left and right subtrees for any node is no more than 1
 #Unbalanced Tree:
-unbalancedtree_example # more details-->
+#any tree where the height difference between 
+#left and right subtrees for any node can be more than 1
+tree_example # more details-->
 
 
 # Graphs
 #Directed Graph:
 directedgraph_example # more details-->
 
-#Balanced Tree:
+#Undirected Graph:
 undirectedgraph_example # more details-->
 
-#Unbalanced Tree:
+#Spanning Tree:
 spanningtree_example # more details-->
 
 #Graph Representation
