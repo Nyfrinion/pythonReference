@@ -7,6 +7,7 @@ import syntax
 #CTRL + Left Mouse on links to other python files to explore
 
 #HISTORY
+#python vs python 3
 history # more details-->
 
 #SYNTAX
